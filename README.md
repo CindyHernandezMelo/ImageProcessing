@@ -3,43 +3,71 @@
 ### Graphic Explanation
 #### Confocal Microscopy
 1.	Filter the images using a median filter
- 
+
+ ![plot](./imagenes/Imagen1.png)
+ ![plot](./imagenes/Imagen2.png)
  
 2.	Make a Morphological Grayscale Reconstruction
- 
+
+ ![plot](./imagenes/Imagen3.png)
+
 3.	Binarize the image using a triangle threshold to create a mask
  
-4.	Open the mask, to remove small artifacts
+  ![plot](./imagenes/Imagen4.png)
  
+4.	Open the mask, to remove small artifacts
+
+ ![plot](./imagenes/Imagen5.png)
+
 #### SPIM Microscopy
 1.	Filter the images using a median filter
+
+ ![plot](./imagenes/Imagen6.png)
  
+ ![plot](./imagenes/Imagen7.png)
  
 2.	Make a Morphological Grayscale Reconstruction
- 
+
+ ![plot](./imagenes/Imagen8.png)
+
 3.	Binarize the image using a triangle threshold to create a mask
- 
+
+ ![plot](./imagenes/Imagen9.png)
 
 4.	Open the mask, to remove small artifacts
- 
+
+![plot](./imagenes/Imagen10.png)
+
 #### Nikon Microscopy
 1.	Make an adaptative contrast equalization 
- 
+
+![plot](./imagenes/Imagen11.png)
+ ![plot](./imagenes/Imagen12.png)
  
 2.	Open to remove salt noise
  
- 
+  ![plot](./imagenes/Imagen13.png)
+ ![plot](./imagenes/Imagen14.png)
+
 3.	Use a median filter
- 
+
+![plot](./imagenes/Imagen15.png)
+ ![plot](./imagenes/Imagen16.png)
  
 4.	Use a White top hat filter
- 
+
+ ![plot](./imagenes/Imagen17.png)
+ ![plot](./imagenes/Imagen18.png)
  
 5.	Binarize using Triangle Threshold
- 
+
+![plot](./imagenes/Imagen19.png)
+ ![plot](./imagenes/Imagen20.png)
  
 6.	Open the mask to remove small artifacts
- 
+
+ ![plot](./imagenes/Imagen21.png)
+ ![plot](./imagenes/Imagen22.png)
  
 ### Paragraph
 #### Confocal Microscopy (planes 20-30)
@@ -77,17 +105,28 @@ First, the images are equalized with an adaptative contrast equalization (CLAHE)
 ## Results
 ### Confocal Microscopy
 #### Average intensity
- 
+
+ ![plot](./imagenes/Imagen23.png)
+
 #### Grow 
- 
+
+ ![plot](./imagenes/Imagen24.png) 
+
 ### Nikon Microscopy
 #### Average intensity
- 
+
+ ![plot](./imagenes/Imagen25.png) 
+
 #### Grow 
- 
+
+ ![plot](./imagenes/Imagen26.png) 
+
 ### SPIM Microscopy 
 #### Average intensity
- 
+
+ ![plot](./imagenes/Imagen27.png) 
+
 #### Grow 
- 
+
+ ![plot](./imagenes/Imagen28.png)
   
